@@ -1,0 +1,11 @@
+// @file
+// Styles for Panels IPE.
+
+// Fix for panels IPE controls.
+ul.panels-ipe-linkbar {
+  margin: 0;
+
+  li {
+    float: left;
+  }
+}

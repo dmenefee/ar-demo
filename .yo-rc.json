@@ -1,0 +1,38 @@
+{
+  "generator-web-starter": {
+    "name": "ar-demo",
+    "repository": "git@github.com:dmenefee/ar-demo.git",
+    "ruby_version": "2.3.0",
+    "plugins": [
+      "web-starter-drupal:web-starter",
+      "web-starter-gesso:web-starter",
+      "web-starter-capistrano:web-starter",
+      "web-starter-grunt:web-starter",
+      "web-starter-salt:web-starter"
+    ]
+  },
+  "generator-web-starter-drupal": {
+    "drupal_version": "7.56",
+    "features": true,
+    "cmi": false,
+    "drupal_theme": "gesso",
+    "install_drupal": true
+  },
+  "generator-web-starter-gesso": {
+    "install_gesso": true
+  },
+  "generator-web-starter-capistrano": {
+    "deploy_via": "git",
+    "keep_releases": 3
+  },
+  "generator-web-starter-salt": {
+    "doc_root": "public",
+    "webserver": "nginx",
+    "search": [
+      "solr3"
+    ],
+    "php_base": "php56u",
+    "mysql_base": "mysql57u",
+    "mysql_password": "root"
+  }
+}

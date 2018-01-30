@@ -1,0 +1,3 @@
+[submodule "public/sites/all/libraries/AR.js"]
+	path = public/sites/all/libraries/AR.js
+	url = git@github.com:jeromeetienne/AR.js.git
